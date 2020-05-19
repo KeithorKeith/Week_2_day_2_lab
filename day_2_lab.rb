@@ -7,4 +7,9 @@ class Bus
         @destination = destination
     end
 
+    def engine_noise()
+        return "Brum Brum"
+    end
+
+
 end

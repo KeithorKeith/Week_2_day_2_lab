@@ -20,4 +20,8 @@ class BusTest < MiniTest::Test
         assert_equal("Ocean Terminal", @bus.destination())
     end
 
+    def test_engine_noise()
+        assert_equal("Brum Brum", @bus.engine_noise())
+    end
+
 end
